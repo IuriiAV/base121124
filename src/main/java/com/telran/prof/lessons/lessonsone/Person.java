@@ -8,7 +8,7 @@ public class Person {
 
     private int age ;
 
-    private  boolean vacatiom;
+    public boolean vacatiom;
 
     public Person(String name, int age, String surname) {
         this.name = name;
