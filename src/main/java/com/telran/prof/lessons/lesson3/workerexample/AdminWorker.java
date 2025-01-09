@@ -1,4 +1,4 @@
-package com.telran.prof.lessons.lesson2.factory;
+package com.telran.prof.lessons.lesson3.workerexample;
 
 public class AdminWorker extends Worker {
 
@@ -6,9 +6,5 @@ public class AdminWorker extends Worker {
     public void printInfo() {
         super.printInfo(); //super - вызов метода из класса родителя
         System.out.println("I do administration function");
-    }
-
-    public void printGreetings() {
-        System.out.println(123);
     }
 }
