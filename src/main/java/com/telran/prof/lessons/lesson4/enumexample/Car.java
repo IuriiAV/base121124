@@ -7,5 +7,4 @@ public class Car {
     private Color color;
 
 
-    }
 }
