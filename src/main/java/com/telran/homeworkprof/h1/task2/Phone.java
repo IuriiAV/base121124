@@ -1,4 +1,4 @@
-package com.telran.homeworkprof.firsthomework.task2;
+package com.telran.homeworkprof.h1.task2;
 
 /**
  *  * 2.Класс Phone.

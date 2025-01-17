@@ -1,4 +1,4 @@
-package com.telran.homeworkprof.firsthomework.task1;
+package com.telran.homeworkprof.h1.task1;
 
 /**
  * 1.Класс Person
