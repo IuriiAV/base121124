@@ -2,7 +2,6 @@ package com.telran.prof.lessons.lesson4.enumexample;
 
 public enum Season {
     WINTER("snow", 5),
-    // new Season("WINTER", "snow")
     SPRING("green", 3),
     SUMMER("sun", 4),
     AUTUMN("rain", 1);

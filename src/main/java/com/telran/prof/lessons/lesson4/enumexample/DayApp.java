@@ -3,12 +3,12 @@ package com.telran.prof.lessons.lesson4.enumexample;
 public class DayApp {
 
     public static void main(String[] args) {
-        printDayInfo(Day.SUNDAY);
-        printDayInfo(Day.THURSDAY);
+        printDayInfo(Day.TUESDAY);
         Day friday = Day.FRIDAY;
         if (friday == Day.FRIDAY) {
             System.out.println("Hello");
         }
+
     }
 
     public static void printDayInfo(Day day) {

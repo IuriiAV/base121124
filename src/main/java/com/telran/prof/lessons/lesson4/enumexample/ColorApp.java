@@ -1,8 +1,6 @@
 package com.telran.prof.lessons.lesson4.enumexample;
 
-import static com.telran.prof.lessons.lesson4.enumexample.Color.WHITE;
-
-public class ColoApp {
+public class ColorApp {
 
     public static void main(String[] args) {
         Color[] values = Color.values();
@@ -13,14 +11,14 @@ public class ColoApp {
         int ordinal = Color.RED.ordinal();
         System.out.println(ordinal);
 
-        //Car audi = new Car("Audi", WHITE);
-        // name | color
-        // Audi | 1
+        Car audi = new Car("Audi", Color.WHITE);
+        // model | color
+        // Audi  | 1
 
         String name = Color.BLACK.name();
         System.out.println("String of enum is " + name);
 
-        String cl = "PINK";
+        String cl = "PINK1";
         Color color = Color.valueOf(cl);
         System.out.println(color);
     }

@@ -6,5 +6,8 @@ public class Car {
 
     private Color color;
 
-
+    public Car(String model, Color color) {
+        this.model = model;
+        this.color = color;
+    }
 }
