@@ -13,8 +13,6 @@ public class ColoApp {
         int ordinal = Color.RED.ordinal();
         System.out.println(ordinal);
 
-        Car audi = new Car("Audi", WHITE);
-        // name | color
         // Audi | 1
 
         String name = Color.BLACK.name();
