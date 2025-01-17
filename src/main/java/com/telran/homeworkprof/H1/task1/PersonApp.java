@@ -1,4 +1,4 @@
-package com.telran.homeworkprof.h1.task1;
+package com.telran.homeworkprof.H1.task1;
 
 public class PersonApp {
 
