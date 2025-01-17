@@ -1,4 +1,4 @@
-package com.telran.homeworkprof.H1.task2;
+package com.telran.homeworkprof.Homework1.task2;
 
 /**
  *  * 2.Класс Phone.
@@ -37,6 +37,7 @@ public class Phone {
         Phone phone3 = new Phone("+49929950029", "Iphone", 170);
 
         Phone[] phones = {phone1, phone2, phone3};
+
         for (Phone phone : phones) {
             System.out.println("We have " + phone.model + " with number " + phone.number + " which has weight " + phone.weight);
             System.out.println("Phone number that we get " + phone.getNumber());

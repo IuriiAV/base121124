@@ -1,4 +1,4 @@
-package com.telran.homeworkprof.H1.task1;
+package com.telran.homeworkprof.Homework1.task1;
 
 public class PersonApp {
 
@@ -8,6 +8,7 @@ public class PersonApp {
 
         firstPerson.move();
         firstPerson.talk();
+        System.out.println(" ");
         secondPerson.move();
         secondPerson.talk();
     }
