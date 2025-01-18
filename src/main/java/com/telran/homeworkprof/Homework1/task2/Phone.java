@@ -32,6 +32,7 @@ public class Phone {
     }
 
     public static void main(String[] args) {
+        System.out.println("Hi");
         Phone phone1 = new Phone("+49324598294", "Samsung", 180);
         Phone phone2 = new Phone("+49249944922", "Xiaomi", 200);
         Phone phone3 = new Phone("+49929950029", "Iphone", 170);
