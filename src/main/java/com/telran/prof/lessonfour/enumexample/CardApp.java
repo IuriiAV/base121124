@@ -8,7 +8,7 @@ public class CardApp {
         CreditCard[] creditCards = {creditCard, creditCard1};
 
         for (CreditCard card :creditCards) {
-            if (card.getCurrency() == Currency.EUR) {
+            if (card.getCurrency() != Currency.EUR) {
                 System.out.println("Send money to " + card.getNumber());
             }
         }
