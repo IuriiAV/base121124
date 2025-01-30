@@ -9,7 +9,6 @@ public class BankApp {
                 new KfWATM(5000),
                 new KommerzATM(3000),
                 new SparkasseATM(7000),
-                new KfWATM(6000)
         };
 
         CreditCard card = new CreditCard("1111 2222 3333 4444", 1234, 1000, "EU");
