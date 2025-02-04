@@ -32,11 +32,13 @@ public class Person {
         this.age = age;
     }
 
-    public void move(){
+    public void move() {
         System.out.println("Person with name : " + fullName + " going ");
+        System.out.println("hi");
     }
 
-    public void talk(){
+    public void talk() {
         System.out.println("Person with name : " + fullName + " talking ");
+
     }
 }
