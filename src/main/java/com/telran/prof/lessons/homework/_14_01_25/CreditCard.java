@@ -13,10 +13,6 @@ class CreditCard {
         this.currencyType = currencyType;
     }
 
-    public String getCardNumber() {
-        return cardNumber;
-    }
-
     public int getPin() {
         return pin;
     }
@@ -27,10 +23,6 @@ class CreditCard {
 
     public void setBalance(int balance) {
         this.balance = balance;
-    }
-
-    public String getCurrencyType() {
-        return currencyType;
     }
 
     @Override

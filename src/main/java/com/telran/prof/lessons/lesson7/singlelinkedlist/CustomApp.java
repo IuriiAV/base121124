@@ -1,5 +1,7 @@
 package com.telran.prof.lessons.lesson7.singlelinkedlist;
 
+import java.util.List;
+
 public class CustomApp {
 
     public static void main(String[] args) {
@@ -12,6 +14,7 @@ public class CustomApp {
         list.add(3);
         list.add(8);
         list.add(15);
+        list.add(-15);
 
         System.out.println(list);
 
