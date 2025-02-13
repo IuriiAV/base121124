@@ -1,4 +1,4 @@
-package com.telran.prof.lessons.algoritms;
+package com.telran.prof.lessons.algoritms.lesson3;
 
 public class Recursion {
 
