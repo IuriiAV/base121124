@@ -5,10 +5,10 @@ public class MaxElementOfArrayWithRecursion {
     public static void main(String[] args) {
         int[] array = new int[]{1, 11, 9, 6, 19, 5};
 
-        System.out.println(maxIterationOfArray(array));
+        System.out.println("Iteration: " + maxIterationOfArray(array));
 
         int max = maxRecursionOfArray(array, 0, array[0]);
-        System.out.println(max);
+        System.out.println("Recursion: " + max);
     }
 
     public static int maxIterationOfArray(int[] array) {
