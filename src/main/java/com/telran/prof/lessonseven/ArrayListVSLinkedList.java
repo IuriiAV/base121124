@@ -19,4 +19,3 @@ public class ArrayListVSLinkedList {
             int value = random.nextInt(500);
         }
     }
-}
