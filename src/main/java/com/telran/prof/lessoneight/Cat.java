@@ -37,6 +37,7 @@ public class Cat {
 
         Cat cat = (Cat) obj;
 
-        return this.age == cat.age && this.breed.equals(cat.breed) && this.color.equals(cat.color);
+        return this.age == cat.age && this.breed.equals(cat.breed)
+                && this.color.equals(cat.color);
     }
 }
