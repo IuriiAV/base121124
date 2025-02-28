@@ -12,7 +12,15 @@ public class ButtonPhone extends Phone{
         this.ownNumber = ownNumber;
     }
 
-    public void call(String phoneNumber){
-        System.out.println("the phone" + getPhoneName() +" "+ getOwnNumber()+" " + phoneNumber );
+    @Override
+    public void call(String phoneNumber) {
+        System.out.print("The phone " + getPhoneName() + " with ownNumber " + ownNumber + " ");
+        super.call(phoneNumber);
+    }
+
+    @Override
+    public void receiveCall(String phoneNumber) {
+        System.out.print("The phone " + getPhoneName() + " with ownNumber " + ownNumber + " " );
+        super.receiveCall(phoneNumber);
     }
 }

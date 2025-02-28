@@ -11,4 +11,16 @@ public class SmartPhone extends Phone{
     public void setOwnNumber(String ownNumber) {
         this.ownNumber = ownNumber;
     }
+
+    @Override
+    public void call(String phoneNumber) {
+        System.out.print("The phone " + getPhoneName() + " with ownNumber " + ownNumber + " ");
+        super.call(phoneNumber);
+    }
+
+    @Override
+    public void receiveCall(String phoneNumber) {
+        System.out.print("The phone " + getPhoneName() + " with ownNumber " + ownNumber + " " );
+        super.receiveCall(phoneNumber);
+    }
 }
