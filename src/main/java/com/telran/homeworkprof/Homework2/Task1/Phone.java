@@ -1,6 +1,6 @@
 package com.telran.homeworkprof.Homework2.Task1;
 
-public class Phone {
+public abstract class Phone  {
 
     private String phoneName ;
 
