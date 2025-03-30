@@ -75,15 +75,18 @@ public class TransLiteratorDuplicator implements Duplicator {
             FileInputStream fileInputStream = new FileInputStream(from);
             FileOutputStream fileOutputStream = new FileOutputStream(to);
             int read;
-            while ((read = fileInputStream.read()) != -1) {
+            while (fileInputStream.available() > 0) {
+                read = fileInputStream.read();
                 char ch = (char) read;
                 if (characterMap.containsKey(ch) && Character.isLetter(ch)) {
-                    byte[] byteUTF8 = String.valueOf(characterMap.get(ch)).getBytes("UTF-8");
+                    byte[] byteUTF8 = String.valueOf(characterMap.get(ch)).getBytes();
                     fileOutputStream.write(byteUTF8);
                 } else {
                     fileOutputStream.write(read);
                 }
             }
+            fileInputStream.close();
+            fileOutputStream.close();
         } catch (IOException exception) {
             System.out.println("Cannot copy file from " + from + "\n to " + to);
         }
