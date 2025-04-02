@@ -14,7 +14,7 @@ public class DuplicatorApp {
         switch (data) {
             case 1 -> duplicator = new StraightForwardDuplicator();
             case 2 -> duplicator = new ReverseDuplicator();
-            case 3 -> duplicator = new TransLiteratorDuplicator();
+            //case 3 -> duplicator = new TransLiteratorDuplicator();
         }
         copyData(duplicator, from, to);
     }
